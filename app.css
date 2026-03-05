@@ -1,0 +1,25 @@
+body {
+    margin: 0 !important;
+}
+.side-nav .nav-link {
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    color: #000;
+}
+
+.side-nav .nav-link:last-child {
+    border-bottom: none;
+}
+
+.side-nav .nav-link.active {
+    background-color: rgba(0, 0, 0, 0.06);
+    font-weight: 500;
+    color: #000;
+}
+
+.red {
+    color: rgb(192, 31, 31);
+}
